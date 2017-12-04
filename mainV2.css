@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+}
+
+.hero-text h1  {
+
+color: #edf3ff;
+font-size: 66px;
+
+}
+
+.hero-text p  {
+
+color: #edf3ff;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.hero-text h3 {
+
+color: #edf3ff;
+font-size: 14px;
+max-width: 450px;
+
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: hsla(120, 100%, 25%, 0.3);;);
+    /* opacity: 0.8; */
+    /* border: 3px solid #8AC007; */
+
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("http://img.pixady.com/2017/11/365611_img0218_copy.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
+.images {
+top:40%;
+}
