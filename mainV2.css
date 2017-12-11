@@ -6,6 +6,9 @@ body, html {
 
 color: #edf3ff;
 font-size: 66px;
+font-family: helvetica;
+font-weight: bold;
+
 
 }
 
@@ -14,6 +17,7 @@ font-size: 66px;
 color: #edf3ff;
 font-size: 18px;
 font-weight: bold;
+font-family: helvetica;
 
 }
 
@@ -22,6 +26,8 @@ font-weight: bold;
 color: #edf3ff;
 font-size: 14px;
 max-width: 450px;
+font-family: verdana;
+
 
 }
 
@@ -29,8 +35,8 @@ max-width: 450px;
     text-align: left;
     position: absolute;
     top: 15%;
-    left: 25%;
-    background-color: hsla(120, 100%, 25%, 0.3);;);
+    left: 22%;
+    background-color: hsla(204, 45%, 55%, 0.65);;);
     /* opacity: 0.8; */
     /* border: 3px solid #8AC007; */
 
@@ -39,7 +45,7 @@ max-width: 450px;
 .bg { 
     /* The image used */
     background-image: url("http://img.pixady.com/2017/11/365611_img0218_copy.jpg");
-
+    border: 1px solid #ddd;
     /* Full height */
     height: 100%; 
 
@@ -48,7 +54,10 @@ max-width: 450px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-}
+
+
+
+
 
 
 .images {
