@@ -2,41 +2,113 @@ body, html {
     height: 100%;
 }
 
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    width: 850px;
+    margin-left:40%;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cochin, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+    display:inline-block;}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero-text h4 {
+    background-color: transparent;
+    margin-right:0%;
+    font: 800 28px/1.3 'Arizonia', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1); 
+    font-size: 56px;
+    margin-top: -20%;
+
+
+}
+
+
 .hero-text h1  {
 
-color: #edf3ff;
-font-size: 66px;
-font-family: helvetica;
-font-weight: bold;
+    font: 900 56px/1.3 'Arizonia', Helvetica, sans-serif;
+    margin-top: -20%;
+
+
 
 
 }
 
 .hero-text p  {
 
-color: #edf3ff;
-font-size: 18px;
+color: #250346;
+font-size: 28px;
 font-weight: bold;
-font-family: helvetica;
-
+font-family: Cochin, Georgia, Garamond, ‘Times New Roman’, Times, serif;
 }
+
+
+.hero-text h2 {
+color: #250346;
+font-size: 28px;
+font-weight: bold;
+font-family: Cochin, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+margin-left: -20%;
+margin-top: -20%;
+}
+
+
 
 .hero-text h3 {
 
-color: #edf3ff;
-font-size: 14px;
-max-width: 450px;
-font-family: verdana;
+color: black;
+font-size: 20px;
+max-width: 550px;
+padding-left: 30px;
+padding-right: 30px;
+font-family: Garamond, sans-serif;
+margin-left: -20%;
+background-color: hsla(360, 0%, 100%, 0.7);
 
+/* border: 3px solid black; */
+
+}
+
+.hero-text h5 {
+background-color: transparent;
+    margin-right:0%;
+    font: 400 24px/1.3 'Arizonia', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1); 
+    font-size: 68px;
+    margin-top: -20%;
+    margin-left: -45%;
 
 }
 
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 15%;
-    left: 22%;
-    background-color: hsla(204, 45%, 55%, 0.65);;);
+    top: 30%;
+    margin-left:30%;
+   /* border: solid;
+    border-width: 5px;
+        background-color: hsla(360, 0%, 100%, 0.5);
+    hsla(204, 45%, 55%, 0.65);;); */
     /* opacity: 0.8; */
     /* border: 3px solid #8AC007; */
 
@@ -44,7 +116,7 @@ font-family: verdana;
 
 .bg { 
     /* The image used */
-    background-image: url("http://img.pixady.com/2017/11/365611_img0218_copy.jpg");
+    background-image: url("https://i.imgur.com/CJT9qI0.jpg");
     border: 1px solid #ddd;
     /* Full height */
     height: 100%; 
@@ -56,10 +128,20 @@ font-family: verdana;
 }
 
 
-
-
-
-
-.images {
-top:40%;
+#portfolio  {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 200px; /* Set a small width */
+    margin-top: 20%;
+    margin-left: 5%; 
 }
+
+
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
